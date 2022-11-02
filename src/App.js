@@ -6,6 +6,7 @@ import data from "./data";
 function Editor({ value, onChange }) {
   return (
     <div className="editor">
+      <p>Markdown Editor:</p>
       <textarea id="editor" onChange={onChange} value={value}></textarea>
     </div>
   )
@@ -13,7 +14,11 @@ function Editor({ value, onChange }) {
 
 function Preview({ value }) {
   return (
-    <div id="preview" className="preview" dangerouslySetInnerHTML={createMarkup(value)}></div>
+    <div  className="preview">
+      <p>Preview:</p>
+      <div id="preview" dangerouslySetInnerHTML={createMarkup(value)}></div>
+    </div>
+    
   )
 }
 
