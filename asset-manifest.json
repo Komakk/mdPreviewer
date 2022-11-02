@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mdPreviewer/static/css/main.56c58e73.css",
+    "main.js": "/mdPreviewer/static/js/main.0f30b05f.js",
+    "index.html": "/mdPreviewer/index.html",
+    "main.56c58e73.css.map": "/mdPreviewer/static/css/main.56c58e73.css.map",
+    "main.0f30b05f.js.map": "/mdPreviewer/static/js/main.0f30b05f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56c58e73.css",
+    "static/js/main.0f30b05f.js"
+  ]
+}
