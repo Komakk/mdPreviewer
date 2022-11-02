@@ -3,6 +3,10 @@ import { useState } from "react";
 import "./App.css";
 import data from "./data";
 
+marked.use({
+  breaks: true
+});
+
 function Editor({ value, onChange }) {
   return (
     <div className="editor">
